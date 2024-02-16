@@ -19,7 +19,6 @@ const Home = () => {
       loop: true,
       showCursor: true,
       cursorChar: "",
-      showCursor: true,
       
 
     });

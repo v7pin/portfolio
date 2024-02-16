@@ -3,7 +3,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { IoMdMail } from "react-icons/io";
 import { FaFilePen } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
-import resumePDF from "../assets/resume.pdf"
+
 const SocialLinks = () => {
   const links = [
     {
@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <FaFilePen size={30} />
         </>
       ),
-      href: resumePDF,
+      href: "Resume.pdf",
       download: true,
       style: "rounded-br-md",
     },
