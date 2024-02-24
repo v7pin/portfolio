@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <FaFilePen size={30} />
         </>
       ),
-      href: "Resume.pdf",
+      href: "https://drive.google.com/file/d/1rmAcMqwa6xZ7qXlg3snrVCgNz5oiqt8Q/view?usp=sharing",
       download: true,
       style: "rounded-br-md",
     },
