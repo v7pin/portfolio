@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const ProjectCard = ({
   id,
   src,
