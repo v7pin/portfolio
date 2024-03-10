@@ -96,9 +96,9 @@ const Skills = () => {
           <p className="py-6 text-xl mt-3">These are the tech I've worked with</p>
         </div>
         {tech.map(({ category, skills }) => (
-          <div key={category} className="flex items-center py-8 px-12 sm:px-0">
+          <div key={category} className="flex items-center py-8 px-12 sm:px-0 max-sm:flex max-sm:flex-col max-sm:ml-16 max-sm:mr-16 ">
             <div className="flex flex-col items-center space-y-4 mr-12">
-              <p className="text-2xl font-bold capitalize">{category}</p>
+              <p className="text-2xl font-bold capitalize ">{category}</p>
             </div>
             <div className="flex items-center space-x-8">
               {skills.map(({ id, src, title, style }) => (

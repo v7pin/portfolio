@@ -31,16 +31,16 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-gradient-to-b from-blue-300 via-blue-200 to-blue-100 "
+      className="w-full h-screen bg-gradient-to-b from-blue-300 via-blue-200 to-blue-100  "
     >
       <div className="max-w-screen mx-auto flex flex-col items-center justify-evenly  h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full ">
-          <h2 className="text-9xlxl sm:text-7xl font-bold  text-black">
+        <div className="flex flex-col justify-center h-full max-sm:mt-16">
+          <h2 className="text-6xl max-sm:text-5xl font-bold  text-black">
             Hi, I am Vipin,
           </h2>
           <span
             ref={el}
-            className="text-7xl mt-4 sm:text-5xl font-bold text-gray-600"
+            className="text-5xl mt-4 max-sm:text-3xl font-bold text-gray-600"
           >
             {" "}
           </span>
@@ -67,7 +67,7 @@ const Home = () => {
           <img
             src={myimage}
             alt="my-pfp"
-            className="rounded-3xl w-64 max-h-96 md:w-full animate-profile_animate"
+            className="rounded-3xl w-64 max-h-96 md:w-full animate-profile_animate max-sm:mb-36 max-sm:mt-0 "
           />
         </div>
       </div>
